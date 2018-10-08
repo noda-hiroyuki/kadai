@@ -1,0 +1,1962 @@
+  [1m[35m (18.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE DATABASE `pictgram_development` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE DATABASE `pictgram_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-10-05 17:57:46 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (5.9ms)
+Completed 200 OK in 35ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-05 18:00:45 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 26ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-05 18:20:23 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 533ms (Views: 530.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-05 18:20:52 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 230ms (Views: 220.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/help" for 127.0.0.1 at 2018-10-05 18:33:58 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#help as HTML
+  Rendering pages/help.html.erb within layouts/application
+  Rendered pages/help.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 282ms (Views: 270.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-07 14:34:54 +0900
+  [1m[35m (36.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 4545ms (Views: 4529.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-07 14:37:06 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 380ms (Views: 369.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-07 14:37:48 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 594ms (Views: 583.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-07 16:37:24 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 3142ms (Views: 3131.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (54.9ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (29.4ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (18.3ms)[0m  [1m[34mSELECT GET_LOCK('6372517130059550925', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20181007112443)
+  [1m[35m (30.1ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20181007112443_create_users.rb:3
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (2.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181007112443')[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (23.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-10-07 11:31:36', '2018-10-07 11:31:36')[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('6372517130059550925')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6372517130059550925', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('6372517130059550925')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6372517130059550925', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20181007112443)
+  [1m[35m (34.1ms)[0m  [1m[35mDROP TABLE `users`[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Destroy (2.4ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20181007112443'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('6372517130059550925')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6372517130059550925', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20181007112443)
+  [1m[35m (26.4ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20181007112443_create_users.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181007112443')[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('6372517130059550925')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('test', 'test@test', '2018-10-07 11:38:38', '2018-10-07 11:38:38')[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('test2', 'test@test2', '2018-10-07 11:40:15', '2018-10-07 11:40:15')[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('test3', 'test@test3', '2018-10-07 11:42:18', '2018-10-07 11:42:18')[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (1.9ms)[0m  [1m[33mUPDATE `users` SET `name` = 'test10', `email` = 'test@test10', `updated_at` = '2018-10-07 11:44:08' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM `users` WHERE `users`.`id` = 1[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = 'test2' LIMIT 1[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 21:57:57 +0900
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (193.0ms)
+Completed 500 Internal Server Error in 215ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `local' for #<ActionView::Helpers::FormBuilder:0x007fe5995158e8>):
+     9:             <%= f.text_field :name, class: 'form-control' %>
+    10:           </div>
+    11:           <div class="form-group">
+    12:             <%= f.local :email, class: 'text-white' %>
+    13:             <%= f.text_field :email, class: 'form-control' %>
+    14:           </div>
+    15: 
+  
+app/views/users/new.html.erb:12:in `block in _app_views_users_new_html_erb___726508359550198699_70312096925840'
+app/views/users/new.html.erb:6:in `_app_views_users_new_html_erb___726508359550198699_70312096925840'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 21:58:27 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (316.2ms)
+Completed 500 Internal Server Error in 345ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `local' for #<ActionView::Helpers::FormBuilder:0x007fe59f48c1f0>):
+     9:             <%= f.text_field :name, class: 'form-control' %>
+    10:           </div>
+    11:           <div class="form-group">
+    12:             <%= f.local :email, class: 'text-white' %>
+    13:             <%= f.text_field :email, class: 'form-control' %>
+    14:           </div>
+    15: 
+  
+app/views/users/new.html.erb:12:in `block in _app_views_users_new_html_erb___726508359550198699_70312104892180'
+app/views/users/new.html.erb:6:in `_app_views_users_new_html_erb___726508359550198699_70312104892180'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 21:59:22 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 2885ms (Views: 2880.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 22:08:25 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 90ms (Views: 77.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 22:08:26 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 70ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 22:08:26 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 77ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 22:08:48 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PnuTeVZE4fTFDXWH+GjnQi6DcIw8kHpU9TH6F5mhdU44PSt4zXKGSCp+2sMxM9WCpqUO+IRh3STGarl78cmhow==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test"}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:9
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('HIroyukiNoda', 'test@test', '2018-10-07 13:11:04', '2018-10-07 13:11:04')[0m
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 135932ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-07 22:11:04 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?_fsi=QTrQdskp" for 127.0.0.1 at 2018-10-07 23:45:11 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Parameters: {"_fsi"=>"QTrQdskp"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 141ms (Views: 122.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 23:45:16 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 201ms (Views: 196.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 23:45:41 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZlcfaXmbuf0+8veaKKP4L4HNbHn51d+75vhLNWgYl29gEado4q3eQdGBWN7h+MrvCesSDUEkeMvVowhZAHBDgg==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:9
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 81192ms (Views: 43.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 23:47:13 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 79ms (Views: 61.5ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 23:47:15 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nlgzviADZzXD7ck6+YVl5JNz+FwiPF2G/ewFuf5UgSSYHou/uzUAiSyeZn4w3lckG1WGKJrN+vbOt0bVljxVyQ==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 83ms (Views: 76.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 23:47:16 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4p7efRpcGyckLwl9Gw5tBOMU0cdqDf9K4l/D6bnPbPfk2GZ8gWp8m8tcpjnSVV/EazKvs9L8WDrRBICF0ae4Gg==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 83ms (Views: 75.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 23:47:17 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iCydUzX7tgp4TK8pmJDMnTTphZ6tNqgG/ZJ0Pu5zLlOOaiVSrs3Rtpc/AG1Ry/5dvM/76hXHD3bOyTdShhv6vg==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 23:47:17 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XUFNefb7S+GzQNUH+jJwPATUv+5r7CetWeBamL0yRrtbB/V4bc0sXVwzekMzaUL8jPLBmtMdgN1quxn01VqSVg==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 74ms (Views: 66.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-07 23:57:56 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2018-10-07 23:58:02 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2018-10-07 23:58:23 +0900
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/new?_fsi=QTrQdskp" for 127.0.0.1 at 2018-10-07 23:59:05 +0900
+Processing by UsersController#new as HTML
+  Parameters: {"_fsi"=>"QTrQdskp"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 2838ms (Views: 2791.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-07 23:59:14 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 150ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 23:59:21 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xWrvyd4zvyZ6NnfHY2gl+THLpcaUx8yP548qjYJe9F3DLFfIRQXYmpVF2IOqMxc5ue3bsiw2a//U1Gnh6jYgsA==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 76ms (Views: 67.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-07 23:59:26 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HJpeun4Y6lJY0EXZeRTM7KqfC3t5PK8dt66qiYv47Esa3Oa75S6N7rej6p2wT/4sIrl1D8HNCG2E9enl45A4pg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (2.1ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('HIroyukiNoda', '', '2018-10-07 14:59:26', '2018-10-07 14:59:26')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (16.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 24ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-07 23:59:26 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new_user_path" for 127.0.0.1 at 2018-10-08 00:01:54 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/new_user_path"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-08 00:01:59 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-08 00:02:00 +0900
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 00:02:09 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 188ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:02:14 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a1rYd5VZwehshPVUjWjJ8Yvd+d8Nz6oaVC3H2G8pO6ZtHGB2Dm+mVIP3WhBEM/sxA/uHq7U+DWpndoS0B0HvSw==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 80ms (Views: 74.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:02:17 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g169yLj3p+yZT7A1eRs/PdkGSIBIF+1C5jHmOaN8HqGFGAXJI8HAUHY8H3GwQA39USA29PDmSjLVaqVVyxTKTA==", "user"=>{"name"=>"HIroyukiNoda", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 94ms (Views: 89.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:02:19 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qPY/hBFYRuSRO2gvYlC+t1FHozhc46whtkh8f1gXe+ausIeFim4hWH5Ix2urC4x32WHdTOQSC1GFEz8TMH+vCw==", "user"=>{"name"=>"HIroyukiNoda", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 74ms (Views: 70.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:02:19 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IPMMke7oRu5eFY85+PUnUa5eLSLS48lkh+TTjP0Cg5smtbSQdd4hUrFmIH0xrhWRJnhTVmoSbhS0v5DglWpXdg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 86ms (Views: 78.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-08 00:13:21 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/new?_fsi=QTrQdskp" for 127.0.0.1 at 2018-10-08 00:13:29 +0900
+Processing by UsersController#new as HTML
+  Parameters: {"_fsi"=>"QTrQdskp"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/nodahiroyuki/pictgram/app/assets/config
+  /Users/nodahiroyuki/pictgram/app/assets/images
+  /Users/nodahiroyuki/pictgram/app/assets/javascripts
+  /Users/nodahiroyuki/pictgram/app/assets/stylesheets
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/actioncable-5.2.1/lib/assets/compiled
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activestorage-5.2.1/app/assets/javascripts
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.2.1/lib/assets/compiled
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/nodahiroyuki/pictgram/node_modules
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/images):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___457589885881209457_70290257699300'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 00:14:44 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 3186ms (Views: 3166.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:14:52 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gb71hotvec3U7lasIf0z2NgEJ4689ancJJOCdefWwyOH+E2HEFkecTud+ejopgEYUCJZ+gQEDqwXyMEZj74Xzg==", "user"=>{"name"=>"", "email"=>""}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 79ms (Views: 69.3ms | ActiveRecord: 0.6ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6372517130059550925', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Migrating to AddPasswordDigestToUsers (20181007152108)
+  [1m[35m (171.4ms)[0m  [1m[35mALTER TABLE `users` ADD `password_digest` varchar(255)[0m
+  ↳ db/migrate/20181007152108_add_password_digest_to_users.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181007152108')[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('6372517130059550925')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 00:30:15 +0900
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 530ms (Views: 510.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 00:45:01 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 735ms (Views: 711.9ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:45:17 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yOsZY7tJk2TQvAB0HgOSnv0ouy7MK9vb1thNoUlQk7POraFiIH/02D/PrzDXWKBedQ7FWnTafKvlgw7NIThHXg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 155ms (Views: 75.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:45:34 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FRUYn66B/b66BrYhPOVF9blZoJfFysXIRpSi1esoUQcTU6CeNbeaAlV1GWX1vnc1MX/e4307Yrh1z+G5g0CF6g==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 126ms (Views: 47.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:45:37 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"opLwolOGq5d23GOmF/2EaQSD2WAMrZtNLfXebl55/2+k1EijyLDMK5mvzOLeprapjKWnFLRcPD0erp0CNhErgg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 123ms (Views: 47.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-08 00:46:21 +0900
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 00:46:45 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 699ms (Views: 673.8ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:46:52 +0900
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xaqnYKaThp65jV3L6iMifksBi1+A1TqlTryY/axtX+zD7B9hPaXhIlb+8o8jeBC+wyf1KzgkndV959uRxAWLAQ==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 64ms (Views: 56.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:47:09 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QD8yD8QYunjVq+xuS0xT5uerWIHRuaRa1Mvsjs9fB5NGeYoOXy7dxDrYQyqCF2Emb40m9WlIAyrnkK/ipzfTfg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (2.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 101ms (Views: 93.1ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:47:10 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F8Cl70mEqSvES4oW0QsVUeypoZILJUkdjaK6pJNi7ygRhh3u0rLOlys4JVIYUCeRZI/f5rPU7m2++fnI+wo7xQ==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 83ms (Views: 74.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 00:47:24 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 188ms (Views: 183.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:47:29 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DieEMNH76HIiUW7uKCq4R/GGZ1hN4+kkmEOAvj2wEcwIYTwxSs2Pzs0iwarhcYqHeaAZLPUSTlSrGMPSVdjFIQ==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 84ms (Views: 78.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 00:56:46 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 648ms (Views: 626.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 00:57:03 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QBN6a6YF8+n0XKCnoKEsCyT4wswFYYr0bPQtTIP75KtGVcJqPTOUVRsvD+Np+h7LrN68uL2QLYRfr24g65MwRg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 87ms (Views: 75.9ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 01:00:34 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r0hDXhEJb6L0yKhmD3nMu9Xt/2NdQBP3k6KDSY2EEOypDvtfij8IHhu7ByLGIv57XcuBF+WxtIeg+cAl5ezEAQ==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('HIroyukiNoda', 'test@test', '2018-10-07 16:00:34', '2018-10-07 16:00:34', '$2a$10$2EnwYhfeB9Gosh4g9oCnouUu5UzJrSgD7S1690m6AdB61FVCXc2Re')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 83ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 01:00:34 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 01:00:58 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 261ms (Views: 256.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 01:01:11 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mID3hUK0pDwqBra6Dt9uF8qFTr+QBfcUMtWsGtBCuF+exk+E2YLDgMV1Gf7HhFzXQqMwyyj0UGQBju92uCpssg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 123ms (Views: 46.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 01:03:54 +0900
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 652ms (Views: 630.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 01:04:13 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j955bmd6Md8rwk6xsujfFdwzJxLkEVrEdszNcOZ3jtSJmMFv/ExWY8Sx4fV7s+3VVBVZZlzg/bRFl44cjh9aOQ==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 126ms (Views: 48.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 01:04:28 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iZhm03G7PxepJjIEj8pqXGqmXypClNH9ce48dD/wI66P3t7S6o1Yq0ZVnUBGkVic4oAhXvpldo1CtX8YV5j3Qw==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('HIroyukiNoda', 'test@test', '2018-10-07 16:04:28', '2018-10-07 16:04:28', '$2a$10$DQq9eq8FGOadcKgtEG9bTeTXqRTSQmY5YUsX34DWhTOj/UCDlgAJK')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 86ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 01:04:28 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 01:04:38 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 135ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 01:05:21 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hGNnNtm+3esbYM6G1CuRgn2vLniFce6a+I7UNiIoMa2CJd83Qoi6V/QTYcIdcKNC9YlQDD2ASerL1ZdaSkDlQA==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 124ms (Views: 46.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:08:26 +0900
+  [1m[35m (41.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+ength: {in: 8..32}, format: {^(?=.*[a~zA~z])(?=.*\d[a~zA~a\d
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+ 8..32}, format: {^(?=.*[a~zA~z])(?=.*\d[a~zA~a\d]$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+format: {^(?=.*[a~zA~z])(?=.*\d[a~zA~a\d]$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+ {^(?=.*[a~zA~z])(?=.*\d[a~zA~a\d]$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$)' is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$)' is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:10:23 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+ength: {in: 8..32}, format: {^(?=.*[a~zA~z])(?=.*\d)[a~zA~a\
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+ 8..32}, format: {^(?=.*[a~zA~z])(?=.*\d)[a~zA~a\d]{8,32}$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+format: {^(?=.*[a~zA~z])(?=.*\d)[a~zA~a\d]{8,32}$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+{^(?=.*[a~zA~z])(?=.*\d)[a~zA~a\d]{8,32}$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$)' is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$)' is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:12:02 +0900
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+ength: {in: 8..32}, format: {^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+ 8..32}, format: {^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+format: {^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+{^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$)}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$)' is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$)' is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:13:22 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+ength: {in: 8..32}, format: {^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+ 8..32}, format: {^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+format: {^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+{^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$}' is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^', expecting '}'
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$}' is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:15:23 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 956ms (Views: 894.2ms | ActiveRecord: 29.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:18:23 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^'
+ {in: 8..32}, format: {with: ^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+}, format: {with: ^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+: {with: ^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+ ^(?=.*[a~zA~Z])(?=.*\d)[a~zA~Z\d]{8,32}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$}' is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^'
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$}' is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started POST "/__web_console/repl_sessions/5a57d0d42feace01065e515b58747e0c/trace" for 127.0.0.1 at 2018-10-08 16:19:32 +0900
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:26:35 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^'
+ {in: 8..32}, format: {with: ^(?=.*[A~Za~z])}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+}, format: {with: ^(?=.*[A~Za~z])}
+                              ^):
+  
+app/models/user.rb:4: syntax error, unexpected '^'
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:31:13 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (A regular expression or a proc or lambda must be supplied as :with):
+  
+app/models/user.rb:4:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:40:16 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: unterminated regexp meets end of file
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/models/user.rb:4: unterminated regexp meets end of file
+app/models/user.rb:4: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:42:05 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^'
+ {in: 8..32}, format: {with: ^(?=.*[a-z])[0-9a-zA-Z\-]{3}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected tIDENTIFIER, expecting ']'
+rmat: {with: ^(?=.*[a-z])[0-9a-zA-Z\-]{3}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+{with: ^(?=.*[a-z])[0-9a-zA-Z\-]{3}$}
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$}' is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^'
+app/models/user.rb:4: syntax error, unexpected tIDENTIFIER, expecting ']'
+app/models/user.rb:4: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$}' is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:45:32 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 741ms (Views: 717.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:49:11 +0900
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^'
+  VALID_PASSWORD_REGEX =  ^(?=.*[A~Za~z])(?=.*\d)[A~Za~z\
+                           ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+PASSWORD_REGEX =  ^(?=.*[A~Za~z])(?=.*\d)[A~Za~z\d]$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+REGEX =  ^(?=.*[A~Za~z])(?=.*\d)[A~Za~z\d]$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+ ^(?=.*[A~Za~z])(?=.*\d)[A~Za~z\d]$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$' without identifiers is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^'
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected '~', expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$' without identifiers is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 16:52:58 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^'
+  VALID_PASSWORD_REGEX =  ^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\
+                           ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '(', expecting keyword_end
+WORD_REGEX =  ^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+REGEX =  ^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$' without identifiers is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^'
+app/models/user.rb:4: syntax error, unexpected '(', expecting keyword_end
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected $undefined, expecting keyword_do or '{' or '('
+app/models/user.rb:4: `$' without identifiers is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started POST "/__web_console/repl_sessions/5c45686cc325301b812e4f9b0f3c4e09/trace" for 127.0.0.1 at 2018-10-08 16:53:09 +0900
+Started POST "/__web_console/repl_sessions/5c45686cc325301b812e4f9b0f3c4e09/trace" for 127.0.0.1 at 2018-10-08 16:53:31 +0900
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:22:12 +0900
+  [1m[35m (3.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected '^'
+  VALID_PASSWORD_REGEX =  ^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])
+                           ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected $undefined
+ALID_PASSWORD_REGEX =  ^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected ')', expecting keyword_end
+_REGEX =  ^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected ')', expecting keyword_end
+(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}$
+                              ^
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: `$' without identifiers is not allowed as a global variable name):
+  
+app/models/user.rb:4: syntax error, unexpected '^'
+app/models/user.rb:4: syntax error, unexpected $undefined
+app/models/user.rb:4: syntax error, unexpected ')', expecting keyword_end
+app/models/user.rb:4: syntax error, unexpected ')', expecting keyword_end
+app/models/user.rb:4: `$' without identifiers is not allowed as a global variable name
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:24:13 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (A regular expression or a proc or lambda must be supplied as :with):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:35:32 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: unterminated regexp meets end of file
+/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/models/user.rb:4: unterminated regexp meets end of file
+app/models/user.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:36:34 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 849ms (Views: 825.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:37:18 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NP+nkSJ6luSDjTqmVMIHrkmWx3T91kz1rM4LG6FKELIyuR+QuUzxWGz+leKdmTVuwbC5AEUn64WflUh3ySLEXw==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (1.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 130ms (Views: 51.7ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:37:36 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DRa1Rx1W6LuGH9YgszUjSRQUB3AdTI6E5A45paVE0BYLUA1GhmCPB2lseWR6bhGJnDJ5BKW9KfTXVXrJzSwE+w==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (5.0ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('HIroyukiNoda', 'test@test', '2018-10-08 08:37:36', '2018-10-08 08:37:36', '$2a$10$aagHf6t0VnmjqmQu.zDsJuJqz0hFfHt0hlVdhVOM.clHgedk2/Z/G')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 86ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 17:37:36 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-08 17:37:42 +0900
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:37:47 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 179ms (Views: 175.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:38:48 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0K4R+Mc7Wre8ttW7MmvZ7UsUZbCxLkzSeV638+J4AnfW6Kn5XA09C1PFev/7MOstwzIbxAnf66JKBfSfihDWmg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 129ms (Views: 52.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:39:27 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jDOc8PygQ0tI2+qPeMs8QJbBJy8bFB6fB3uJYiQrQ5CKdSTxZ5Yk96eoRcuxkA6AHudZW6Plue80IMoOTEOXfQ==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('HIroyukiNoda', 'test@test', '2018-10-08 08:39:27', '2018-10-08 08:39:27', '$2a$10$CAO33VLvFpZycnSxu0DoT.YeqCizR5Q5EmCLfZjJWO0na51NJf8BW')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 83ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 17:39:27 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:43:09 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 200ms (Views: 194.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:43:43 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"djprgg4L04lIHGn3SL82Z0aWNKYctqVbv0LR4OvyuZlwfNODlT20NadvxrOB5ASnzrBK0qRHAiuMGZKMg5ptdA==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('HIroyukiNoda', 'test@test', '2018-10-08 08:43:43', '2018-10-08 08:43:43', '$2a$10$QjSZffvzg52XUEZRVlp/bO4dxkrr9GnbowYLLl2WKVI6f.0xKnG6W')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 81ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 17:43:43 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:43:50 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 219ms (Views: 215.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:44:18 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"THU4ptTpllpeIXPS8kBaKjesx8vk15o/jsi4gff0HWJKM4CnT9/x5rFS3JY7G2jqv4q5v1wmPU+9k/vtn5zJjw==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('HIroyukiNoda', 'test@test', '2018-10-08 08:44:19', '2018-10-08 08:44:19', '$2a$10$3ZEEPAeiSe6dGIc1aBvFfOuhOEOg9O6U7UA9V9mktGq1bwgv92j5W')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 79ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 17:44:19 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:44:24 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 143ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:44:51 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4O2yvBkZu8a7i6paYjQeXM4SvVetqDv39qPrzfoomQTmqwq9gi/celT4BR6rbyycRjTDIxVZnIfF+KihkkBN6Q==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 122ms (Views: 46.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:44:59 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GL5wxHrfPajTSYg7xBoLvGNx5KLDLeYGg1pCWoHtI5ce+MjF4elaFDw6J38NQTl861ea1nvcQXawAQE26YX3eg==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 135ms (Views: 56.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:45:46 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VyK6T1uKJWDug2xghi8EGSBtHlaGuuFzRpy2u7B6LYlRZAJOwLxC3AHwwyRPdDbZqEtgIj5LRgN1x/XX2BL5ZA==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 124ms (Views: 46.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:45:48 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fe2a7rIehm0QbkpYsSiZnrI8hIcW6ABMqJdvmPPPo8J7qyLvKSjh0f8d5Rx4c6teOhr6864ZpzybzCz0m6d3Lw==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 79ms (Views: 69.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:57:11 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/nodahiroyuki/pictgram/app/models/user.rb:4: syntax error, unexpected ','
+ates :email, presence: true, ,format: { with: VALID_MAIL_REG
+                              ^):
+  
+app/models/user.rb:4: syntax error, unexpected ','
+app/controllers/users_controller.rb:3:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 17:58:44 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 761ms (Views: 738.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:59:12 +0900
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MEEw23ZjBtE/a4og94gFsd9M4cI+ZyCSwwIjCaPjnjc2B4ja7VVhbdAYJWQ+0zdxV2qftoaWh+LwWWBly4tK2g==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 123ms (Views: 45.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:59:44 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bEQM6OqPSJl37BQ3u1jPZC9rwHYUbc54M+E211wozuhqArTpcbkvJZifu3NyA/2kp02+AqycaQgAunW7NEAaBQ==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 121ms (Views: 44.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:59:47 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6xDd79Cx/3PkvReNXJrle//BSpt4y0C32OjEkbnqcBntVmXuS4eYzwvOuMmVwde7d+c078A658frs4f90YKk9A==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 67ms (Views: 61.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:59:48 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4qimqju+t36cUPhjOgeKT9rPKi1frdE/zbaInNvjBhXk7h6roIjQwnMjVyfzXLiPUulUWedcdk/+7cvws4vS+A==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 82ms (Views: 76.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 17:59:48 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"piMeTaKtNPX7FsmOAStNbEQnYUnp+v8bjiQn29PDkYCgZaZMOZtTSRRlZsrIcH+szAEfPVELWGu9f2S3u6tFbQ==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.8ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 86ms (Views: 78.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 18:00:31 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DY9dSOWgRhxzVzXSrTt0dB0GyTK5YlI3mEVNBk08lzYLyeVJfpYhoJwkmpZkYEa0lSC3RgGT9UerHg5qJVRD2w==", "user"=>{"name"=>"HIroyukiNoda", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('HIroyukiNoda', 'test@test.com', '2018-10-08 09:00:31', '2018-10-08 09:00:31', '$2a$10$t0eMznbO0E3igRXbNcY7De9tZzKsEaFiYfoNlnJhrvTlr8m3YVjzG')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 80ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 18:00:31 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-10-08 18:14:44 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 740ms (Views: 713.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 18:15:31 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/nodahiroyuki/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BJeId10/RItjiPJIMyTXKV5C3LCOAF9GH6G8a06tTTgC0TB2xgkjN4z7XQz6f+Xp1mSixDbx+DYs+v8HJsWZ1Q==", "user"=>{"name"=>"oooooooooooooooo", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 135ms (Views: 54.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-10-08 18:15:48 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jzOJQM63N91uBfcryR3K4jdYMrAy2HzGG9xbbv99q0CJdTFBVYFQYYF2WG8ARvgiv35MxIop27YohxgClxV/rQ==", "user"=>{"name"=>"ooooooooooooooo", "email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"登録"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('ooooooooooooooo', 'test@test.com', '2018-10-08 09:15:48', '2018-10-08 09:15:48', '$2a$10$jTtopwvFV8Ia/IiKST0HNeEVUryAYBgV.j8uxXvZdE/e4ktkPVhQ.')[0m
+  ↳ app/controllers/users_controller.rb:8
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8
+Redirected to http://localhost:3000/
+Completed 302 Found in 82ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 18:15:48 +0900
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
